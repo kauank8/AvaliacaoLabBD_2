@@ -1,0 +1,104 @@
+@charset "ISO-8859-1";
+@charset "ISO-8859-1";
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #E8E8E8;
+}
+/*Personalizando o Menu */
+#menu {
+	padding:15px;
+	margin:15px;
+	background: linear-gradient(to bottom, #00ccff 0%, #003399 100%);
+	text-align: center
+}
+#menu ul{
+	padding: 0px;
+	margin:10px;
+	/*background-color: white;*/
+	list-style: none;
+	font-size: 18px;
+}
+
+#menu ul li{
+	display: inline;
+	padding-right:10px;
+}
+
+#menu ul li a{
+	font-size: 18px;
+	padding: 2px 15px;
+	display: inline-block;
+	background-color: ghostwhite;
+	color: black;
+	text-decoration: none;
+	border-radius: 10px;
+	transition: all .5s;
+    border: 2px solid transparent;
+}
+
+#menu ul li a:hover{
+	font-size: 18px;
+	background-color:#1E90FF;
+	color: white;
+	border: 5px solid #136497;
+    border-radius: 50%;
+	
+}
+
+
+/*Personalizando a pagina principal */
+#principal{ 
+	width:920px; 
+	height: 450px;
+	margin:0 auto; 
+	padding: 15px;
+	background-color: whitesmoke;
+	}
+
+#principal h1{
+	color: deepskyblue;
+	border: 5px solid black;
+    border-radius: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 40px
+}	
+#logo {
+	width:200px;
+	float: right;
+}
+#conteudo{
+	width:600px;
+	float: left;
+}
+#conteudo p{
+	text-align: justify;
+}
+.blue{
+	color:blue;
+}
+
+/*Rodape */
+
+#rodape{
+	background-color: whitesmoke;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0px 15px;
+	width:920px;
+	margin-top: 70px;
+}
+#rodape p{
+	padding-top:5px;
+	margin:1px;
+}
+
+
+
+
+
+
+

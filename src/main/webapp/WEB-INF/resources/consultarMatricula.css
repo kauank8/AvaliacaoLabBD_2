@@ -1,0 +1,152 @@
+@charset "ISO-8859-1";
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #E8E8E8;
+}
+#menu {
+	padding:15px;
+	margin:15px;
+	background: linear-gradient(to bottom, #00ccff 0%, #003399 100%);
+	text-align: center
+}
+#menu ul{
+	padding: 0px;
+	margin:10px;
+	/*background-color: white;*/
+	list-style: none;
+	font-size: 18px;
+}
+
+#menu ul li{
+	display: inline;
+	padding-right:10px;
+}
+
+#menu ul li a{
+	font-size: 18px;
+	padding: 2px 15px;
+	display: inline-block;
+	background-color: ghostwhite;
+	color: black;
+	text-decoration: none;
+	border-radius: 10px;
+	transition: all .5s;
+    border: 2px solid transparent;
+}
+
+#menu ul li a:hover{
+	font-size: 18px;
+	background-color:#1E90FF;
+	color: white;
+	border: 5px solid #136497;
+    border-radius: 50%;	
+}
+
+#menu ul li a.ativa {
+	font-size: 18px;
+	background-color:#1E90FF;
+	color: white;
+	border: 5px solid #136497;
+    border-radius: 50%;
+}
+
+/*Personalizando botão e lista */
+
+.botao {
+	border: 2px solid #00008B;
+	color: black;
+	background-color: #6495ED;
+	border-radius: 4px;
+	font-size: 20px;
+}
+
+.botao:hover {
+	cursor:pointer;
+	color: white;
+}
+
+.title{
+	font-size: 20px;
+	color: black;
+}
+
+
+.id_input_data {
+	border: 3px solid black;
+	border-radius: 4px;
+	height: 30px;
+	font-size: 20px;
+}
+
+/* Personalizando Aluno */
+.container_aluno {
+  margin: 15px;
+  height: 100%;
+  background: lightblue;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Personalizando Container */ 
+.container_aluno::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, #3498db 10%, transparent 20%),
+    radial-gradient(circle, transparent 10%, #3498db 20%);
+  background-size: 30px 30px; 
+}
+
+
+.container_aluno h1{
+	position: relative;
+	text-align: center;
+    font-family: cursive;
+    color: #202020;
+}
+
+.container_aluno form{
+	position:relative;
+	left:38%;
+	margin-bottom: 15px;
+}
+
+/*Personalizando as tables */
+.table_round{
+	border: 1px solid black;
+	border-radius: 10px;
+	font-size: 1.2em;
+	max-height: 400px;
+	overflow-y: auto;
+}
+
+.th_dash {
+	border: 0.5px solid blue;
+	border-style: dashed;
+}
+
+.lista {
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: center;
+}
+
+#rodape{
+	background-color: whitesmoke;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0px 15px;
+	width:920px;
+	margin-top: 70px;
+}
+#rodape p{
+	padding-top:5px;
+	margin:1px;
+}
+
